@@ -517,6 +517,193 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Input Move ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "bc8d9f3e-ecd6-46fa-b435-d11848b8d3c1",
+            "source": {
+              "cell": "6ae22d0f-1940-4dcd-8f37-4de21b6e3d3c"
+            },
+            "target": {
+              "cell": "0bb908ab-be1f-48f3-9031-66d78259d238"
+            },
+            "labels": [
+              "Input Move "
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Save Move",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "11a7ce8a-42da-4f40-a33a-e22f4f961d7c",
+            "source": {
+              "cell": "0bb908ab-be1f-48f3-9031-66d78259d238"
+            },
+            "target": {
+              "cell": "a7dd8488-985d-4257-9cb3-24ce970fc023"
+            },
+            "vertices": [
+              {
+                "x": 18560,
+                "y": 13240
+              }
+            ],
+            "labels": [
+              "Save Move"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read Saved Moves",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "897a6cf4-bf98-4c1b-8c93-a26b3810fa80",
+            "source": {
+              "cell": "a7dd8488-985d-4257-9cb3-24ce970fc023"
+            },
+            "target": {
+              "cell": "0bb908ab-be1f-48f3-9031-66d78259d238"
+            },
+            "vertices": [
+              {
+                "x": 18687,
+                "y": 13220
+              }
+            ],
+            "labels": [
+              "Read Saved Moves"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "d2869ba3-f7e5-4fed-8ab6-3356e3f59358",
+            "source": {
+              "cell": "0bb908ab-be1f-48f3-9031-66d78259d238"
+            },
+            "target": {
+              "cell": "a621e7ad-0fb7-41e6-8bc7-b61ce0f61cf0"
+            },
+            "vertices": [
+              {
+                "x": 18790,
+                "y": 13460
+              },
+              {
+                "x": 18810,
+                "y": 13460
+              }
+            ]
+          },
+          {
             "position": {
               "x": -19560,
               "y": 10370
@@ -532,8 +719,8 @@
           },
           {
             "position": {
-              "x": 18400,
-              "y": 13380
+              "x": 18350,
+              "y": 13330
             },
             "size": {
               "width": 140,
@@ -566,8 +753,8 @@
           },
           {
             "position": {
-              "x": 18620,
-              "y": 13520
+              "x": 18570,
+              "y": 13550
             },
             "size": {
               "width": 140,
@@ -603,8 +790,8 @@
           },
           {
             "position": {
-              "x": 18620,
-              "y": 13300
+              "x": 18610,
+              "y": 13290
             },
             "size": {
               "width": 140,
@@ -640,8 +827,8 @@
           },
           {
             "position": {
-              "x": 18810,
-              "y": 13430
+              "x": 18790,
+              "y": 13480
             },
             "size": {
               "width": 140,
@@ -672,6 +859,125 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 18900,
+              "y": 13200
+            },
+            "size": {
+              "width": 150,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "SQLiteConnectionManager.java"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "1b674434-486e-4555-b49a-c28cfd2c3e86",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Process",
+              "name": "SQLiteConnectionManager.java",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 18540,
+              "y": 13100
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data.txt"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "a7dd8488-985d-4257-9cb3-24ce970fc023",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Store",
+              "name": "Data.txt",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 18760,
+              "y": 13100
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Checkersgame.db"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "684b831d-faf6-4686-b18c-b2d2f78132db",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Store",
+              "name": "Checkersgame.db",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           }
