@@ -804,7 +804,7 @@
             "vertices": [
               {
                 "x": 830,
-                "y": 1440
+                "y": 1463
               }
             ]
           },
@@ -851,8 +851,8 @@
             ],
             "vertices": [
               {
-                "x": 820,
-                "y": 1490
+                "x": 810,
+                "y": 1500
               }
             ]
           },
@@ -899,8 +899,146 @@
             ],
             "vertices": [
               {
+                "x": 780,
+                "y": 1530
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "4a793833-cdfe-4422-b4dd-03cf43efc48f",
+            "source": {
+              "cell": "7f57607c-ff26-4940-82db-a7de23582400"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check details"
+            ],
+            "vertices": [
+              {
+                "x": 790,
+                "y": 1570
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logged-in redirect to home",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "30a5becd-7fbc-4b59-aede-b0186734af81",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "7f57607c-ff26-4940-82db-a7de23582400"
+            },
+            "labels": [
+              "Logged-in redirect to home"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Failed redirect to login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "906635a8-a730-4f43-8e95-0c6bb84b0da3",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "7f57607c-ff26-4940-82db-a7de23582400"
+            },
+            "labels": [
+              "Failed redirect to login"
+            ],
+            "vertices": [
+              {
                 "x": 810,
-                "y": 1520
+                "y": 1640
               }
             ]
           },
@@ -940,7 +1078,7 @@
           },
           {
             "position": {
-              "x": 881,
+              "x": 911,
               "y": 1545
             },
             "size": {
@@ -977,8 +1115,8 @@
           },
           {
             "position": {
-              "x": 881,
-              "y": 1360
+              "x": 991,
+              "y": 1390
             },
             "size": {
               "width": 120,
