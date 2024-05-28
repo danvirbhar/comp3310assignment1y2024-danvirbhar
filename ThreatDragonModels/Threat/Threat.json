@@ -1235,6 +1235,150 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read user info",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "f40496bb-1fed-46e3-938f-309fab102452",
+            "source": {
+              "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Read user info"
+            ],
+            "vertices": [
+              {
+                "x": 880,
+                "y": 1740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Write new users",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "dd19bcbb-9101-4387-9283-ebb4ff2e3609",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
+            },
+            "labels": [
+              "Write new users"
+            ],
+            "vertices": [
+              {
+                "x": 1100,
+                "y": 1750
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update user info",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "626ba970-56fd-4989-8134-ead6faa9b2c4",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
+            },
+            "labels": [
+              "Update user info"
+            ],
+            "vertices": [
+              {
+                "x": 977,
+                "y": 1780
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1510,
               "y": 1654
@@ -1345,7 +1489,7 @@
           {
             "position": {
               "x": 721,
-              "y": 1833
+              "y": 1860
             },
             "size": {
               "width": 120,
@@ -1386,7 +1530,7 @@
           {
             "position": {
               "x": 891,
-              "y": 1833
+              "y": 1860
             },
             "size": {
               "width": 120,
@@ -1427,7 +1571,7 @@
           {
             "position": {
               "x": 1075,
-              "y": 1833
+              "y": 1860
             },
             "size": {
               "width": 120,
