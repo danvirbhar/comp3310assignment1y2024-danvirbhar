@@ -2022,8 +2022,8 @@
             ],
             "vertices": [
               {
-                "x": 1520,
-                "y": 1560
+                "x": 1510,
+                "y": 1600
               }
             ]
           },
@@ -2168,6 +2168,150 @@
               {
                 "x": 490,
                 "y": 1440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Upload fileToUpload",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "ea8405f6-0610-45a3-9f1e-8be142c82fee",
+            "source": {
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Upload fileToUpload"
+            ],
+            "vertices": [
+              {
+                "x": 1190,
+                "y": 1490
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo crated/Invalid file type",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "82c6dfe7-0ad2-4620-9bf0-9e6885ee63ae",
+            "source": {
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Photo crated/Invalid file type"
+            ],
+            "vertices": [
+              {
+                "x": 1190,
+                "y": 1520
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST edit ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5bc0d1cd-2bbb-4d2f-94ad-11e7cbbbd4df",
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "labels": [
+              "POST edit "
+            ],
+            "vertices": [
+              {
+                "x": 1480,
+                "y": 1520
               }
             ]
           },
@@ -2445,8 +2589,8 @@
             "zIndex": 17,
             "vertices": [
               {
-                "x": 1590,
-                "y": 1560
+                "x": 1500,
+                "y": 1640
               }
             ]
           },
@@ -2486,6 +2630,150 @@
               "threats": []
             },
             "zIndex": 18
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Upload fileToUpload",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "84b29b00-599b-4485-a347-a506d2eab6d0",
+            "labels": [
+              "Upload fileToUpload"
+            ],
+            "source": {
+              "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "zIndex": 19,
+            "vertices": [
+              {
+                "x": 810,
+                "y": 1420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo created/Invalid file type",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "b4faf8d3-ed72-45e7-a705-1b85b44fa41b",
+            "labels": [
+              "Photo created/Invalid file type"
+            ],
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
+            },
+            "zIndex": 20,
+            "vertices": [
+              {
+                "x": 800,
+                "y": 1450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST edit",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "1e660a82-e407-426e-b7e4-6555f453a96f",
+            "labels": [
+              "POST edit"
+            ],
+            "source": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "target": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "zIndex": 21,
+            "vertices": [
+              {
+                "x": 1480,
+                "y": 1650
+              }
+            ]
           }
         ]
       }
