@@ -48,7 +48,7 @@
               "y": 1270.0000000000007
             },
             "size": {
-              "width": 570,
+              "width": 530,
               "height": 690
             },
             "shape": "trust-boundary-box",
@@ -69,12 +69,12 @@
           },
           {
             "position": {
-              "x": 644,
+              "x": 664,
               "y": 1900.0000000000014
             },
             "size": {
-              "width": 410,
-              "height": 140
+              "width": 380,
+              "height": 120
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -1603,8 +1603,8 @@
             },
             "vertices": [
               {
-                "x": 1570,
-                "y": 1240
+                "x": 1440,
+                "y": 1300
               }
             ]
           },
@@ -2794,12 +2794,12 @@
           },
           {
             "position": {
-              "x": 911,
-              "y": 1545
+              "x": 901,
+              "y": 1530
             },
             "size": {
-              "width": 120,
-              "height": 110
+              "width": 170,
+              "height": 170
             },
             "attrs": {
               "text": {
