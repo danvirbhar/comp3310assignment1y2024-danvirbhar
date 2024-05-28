@@ -1399,7 +1399,7 @@
             "vertices": [
               {
                 "x": 977,
-                "y": 1770
+                "y": 1780
               }
             ]
           },
@@ -1446,8 +1446,8 @@
             },
             "vertices": [
               {
-                "x": 1170,
-                "y": 1710
+                "x": 1195,
+                "y": 1690
               }
             ]
           },
@@ -1494,8 +1494,8 @@
             },
             "vertices": [
               {
-                "x": 1220,
-                "y": 1670
+                "x": 1150,
+                "y": 1710
               }
             ]
           },
@@ -2456,6 +2456,102 @@
               {
                 "x": 1210,
                 "y": 1630
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo {Id} deleted",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "645d3389-0130-40ff-97ce-d258ae149512",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "labels": [
+              "Photo {Id} deleted"
+            ],
+            "vertices": [
+              {
+                "x": 1200,
+                "y": 1670
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "deletById",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "943d2b8b-41f7-4bdf-9b2e-16f383854d9d",
+            "source": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "deletById"
+            ],
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 1650
               }
             ]
           },
