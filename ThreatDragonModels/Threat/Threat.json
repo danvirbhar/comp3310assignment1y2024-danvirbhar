@@ -32,8 +32,8 @@
                 "text": "Public browser access"
               }
             },
-            "id": "67bca273-4d5b-40bb-ae76-159c1f8f8df9",
             "zIndex": -1,
+            "id": "67bca273-4d5b-40bb-ae76-159c1f8f8df9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Public browser access",
@@ -678,6 +678,9 @@
               "threats": []
             },
             "id": "3a307a02-e38a-47d7-baf0-afd257bfe538",
+            "labels": [
+              "GET request"
+            ],
             "source": {
               "x": 400,
               "y": 1630
@@ -685,9 +688,6 @@
             "target": {
               "cell": "bb3b11c1-41f9-4e48-a3b2-67f8427f1ce0"
             },
-            "labels": [
-              "GET request"
-            ],
             "vertices": [
               {
                 "x": 510,
@@ -727,15 +727,15 @@
               "threats": []
             },
             "id": "a6652d9e-db55-4e91-afd6-3aa20c82c499",
+            "labels": [
+              "Logged-in"
+            ],
             "source": {
               "cell": "7f57607c-ff26-4940-82db-a7de23582400"
             },
             "target": {
               "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
-            },
-            "labels": [
-              "Logged-in"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -769,15 +769,15 @@
               "threats": []
             },
             "id": "21f57e49-78ff-4599-a64a-fd96802dd5a0",
+            "labels": [
+              "Welcome page"
+            ],
             "source": {
               "cell": "bb3b11c1-41f9-4e48-a3b2-67f8427f1ce0"
             },
             "target": {
               "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
             },
-            "labels": [
-              "Welcome page"
-            ],
             "vertices": [
               {
                 "x": 460,
@@ -817,15 +817,15 @@
               "threats": []
             },
             "id": "e4a9da50-9857-40ac-8ff3-03a4743ef05d",
+            "labels": [
+              "Check  details"
+            ],
             "source": {
               "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Check  details"
-            ],
             "vertices": [
               {
                 "x": 770,
@@ -865,15 +865,15 @@
               "threats": []
             },
             "id": "4fb31f96-c9db-4547-ada1-e50f3b96cb27",
+            "labels": [
+              "Success redirect to home"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
             },
-            "labels": [
-              "Success redirect to home"
-            ],
             "vertices": [
               {
                 "x": 750,
@@ -913,15 +913,15 @@
               "threats": []
             },
             "id": "778f76f2-53cb-4171-8a99-61ed7f60d090",
+            "labels": [
+              "Invalid/exists redirect to signup"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
             },
-            "labels": [
-              "Invalid/exists redirect to signup"
-            ],
             "vertices": [
               {
                 "x": 720,
@@ -961,15 +961,15 @@
               "threats": []
             },
             "id": "4a793833-cdfe-4422-b4dd-03cf43efc48f",
+            "labels": [
+              "Check details"
+            ],
             "source": {
               "cell": "7f57607c-ff26-4940-82db-a7de23582400"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Check details"
-            ],
             "vertices": [
               {
                 "x": 730,
@@ -1009,15 +1009,15 @@
               "threats": []
             },
             "id": "30a5becd-7fbc-4b59-aede-b0186734af81",
+            "labels": [
+              "Logged-in redirect to home"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "7f57607c-ff26-4940-82db-a7de23582400"
-            },
-            "labels": [
-              "Logged-in redirect to home"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1051,15 +1051,15 @@
               "threats": []
             },
             "id": "906635a8-a730-4f43-8e95-0c6bb84b0da3",
+            "labels": [
+              "Failed redirect to login"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "7f57607c-ff26-4940-82db-a7de23582400"
             },
-            "labels": [
-              "Failed redirect to login"
-            ],
             "vertices": [
               {
                 "x": 750,
@@ -1099,15 +1099,15 @@
               "threats": []
             },
             "id": "d498ee64-7611-43b9-a610-4c28bdfb0c71",
+            "labels": [
+              "Fetch photos"
+            ],
             "source": {
               "cell": "bb3b11c1-41f9-4e48-a3b2-67f8427f1ce0"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Fetch photos"
-            ],
             "vertices": [
               {
                 "x": 740,
@@ -1147,15 +1147,15 @@
               "threats": []
             },
             "id": "89c5504b-05a0-4e0e-a0af-aa964d54679f",
+            "labels": [
+              "Return photos"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "bb3b11c1-41f9-4e48-a3b2-67f8427f1ce0"
             },
-            "labels": [
-              "Return photos"
-            ],
             "vertices": [
               {
                 "x": 770,
@@ -1195,15 +1195,15 @@
               "threats": []
             },
             "id": "fc1fe04c-6af3-4831-8ea7-99f02107b790",
+            "labels": [
+              "Check user role"
+            ],
             "source": {
               "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Check user role"
-            ],
             "vertices": [
               {
                 "x": 950,
@@ -1243,15 +1243,15 @@
               "threats": []
             },
             "id": "200b4647-42e9-400b-8380-1b4945245725",
+            "labels": [
+              "Return user role"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
             },
-            "labels": [
-              "Return user role"
-            ],
             "vertices": [
               {
                 "x": 1030,
@@ -1291,15 +1291,15 @@
               "threats": []
             },
             "id": "f40496bb-1fed-46e3-938f-309fab102452",
+            "labels": [
+              "Read user info"
+            ],
             "source": {
               "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Read user info"
-            ],
             "vertices": [
               {
                 "x": 880,
@@ -1339,15 +1339,15 @@
               "threats": []
             },
             "id": "dd19bcbb-9101-4387-9283-ebb4ff2e3609",
+            "labels": [
+              "Write new users"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
             },
-            "labels": [
-              "Write new users"
-            ],
             "vertices": [
               {
                 "x": 1100,
@@ -1387,15 +1387,15 @@
               "threats": []
             },
             "id": "626ba970-56fd-4989-8134-ead6faa9b2c4",
+            "labels": [
+              "Update user info"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
             },
-            "labels": [
-              "Update user info"
-            ],
             "vertices": [
               {
                 "x": 977,
@@ -1435,15 +1435,15 @@
               "threats": []
             },
             "id": "9f1a56a4-4922-4ac4-82b8-3bbc4584fecf",
+            "labels": [
+              "Save photo"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
             },
-            "labels": [
-              "Save photo"
-            ],
             "vertices": [
               {
                 "x": 1170,
@@ -1483,15 +1483,15 @@
               "threats": []
             },
             "id": "220be8ba-ab59-4738-9b95-23bc8ca168d2",
+            "labels": [
+              "Delete photo"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
             },
-            "labels": [
-              "Delete photo"
-            ],
             "vertices": [
               {
                 "x": 1220,
@@ -1531,6 +1531,9 @@
               "threats": []
             },
             "id": "10b21eac-8d59-4c7d-98ed-328e27c09271",
+            "labels": [
+              "Read photo"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
@@ -1542,9 +1545,6 @@
                 "x": 1130,
                 "y": 1740
               }
-            ],
-            "labels": [
-              "Read photo"
             ]
           },
           {
@@ -1579,6 +1579,9 @@
               "threats": []
             },
             "id": "71d9523b-e5ac-4010-b777-c3ac9e31ca4d",
+            "labels": [
+              "Update photo info"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
@@ -1590,9 +1593,6 @@
                 "x": 790,
                 "y": 1710
               }
-            ],
-            "labels": [
-              "Update photo info"
             ]
           },
           {
@@ -1627,15 +1627,15 @@
               "threats": []
             },
             "id": "45336336-7b3a-4584-903f-413d733a0cd7",
+            "labels": [
+              "Read database"
+            ],
             "source": {
               "cell": "9485f6da-7f94-49cc-a086-b9463196376f"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Read database"
-            ],
             "vertices": [
               {
                 "x": 820,
@@ -1675,15 +1675,15 @@
               "threats": []
             },
             "id": "904d62b8-26fa-4fa9-ad7c-55ce7419f384",
+            "labels": [
+              "Issue token"
+            ],
             "source": {
               "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
             },
             "target": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
-            "labels": [
-              "Issue token"
-            ],
             "vertices": [
               {
                 "x": 1330,
@@ -1723,15 +1723,15 @@
               "threats": []
             },
             "id": "c9788e73-8a7b-4a57-b468-31422ac8f41a",
+            "labels": [
+              "Issue token"
+            ],
             "source": {
               "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
             },
             "target": {
               "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
             },
-            "labels": [
-              "Issue token"
-            ],
             "vertices": [
               {
                 "x": 1300,
@@ -1771,6 +1771,9 @@
               "threats": []
             },
             "id": "28aeee0b-a03c-4bc1-a7c5-44b3172fe0b5",
+            "labels": [
+              "GET request"
+            ],
             "source": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
@@ -1782,9 +1785,6 @@
                 "x": 1530,
                 "y": 1343
               }
-            ],
-            "labels": [
-              "GET request"
             ]
           },
           {
@@ -1819,15 +1819,15 @@
               "threats": []
             },
             "id": "a2f44a4e-9e96-4427-87e4-16fca948984f",
+            "labels": [
+              "Users profile page"
+            ],
             "source": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
             "target": {
               "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
             },
-            "labels": [
-              "Users profile page"
-            ],
             "vertices": [
               {
                 "x": 1500,
@@ -1867,15 +1867,15 @@
               "threats": []
             },
             "id": "46f2aa8b-11ef-42ca-92e4-083608b18968",
+            "labels": [
+              "Fetch users photos"
+            ],
             "source": {
               "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Fetch users photos"
-            ],
             "vertices": [
               {
                 "x": 1150,
@@ -1915,15 +1915,15 @@
               "threats": []
             },
             "id": "da418282-63e0-40b3-894d-5fe7a15ccd40",
+            "labels": [
+              "Return users photos"
+            ],
             "source": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
             "target": {
               "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
             },
-            "labels": [
-              "Return users photos"
-            ],
             "vertices": [
               {
                 "x": 1170,
@@ -1963,15 +1963,15 @@
               "threats": []
             },
             "id": "12ab62fb-79e9-4f39-9827-962e079f9d73",
+            "labels": [
+              "POST photo"
+            ],
             "source": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
             "target": {
               "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
             },
-            "labels": [
-              "POST photo"
-            ],
             "vertices": [
               {
                 "x": 1470,
@@ -2011,15 +2011,15 @@
               "threats": []
             },
             "id": "5a26f514-10ce-4a70-9a84-7cc177c0cb3c",
+            "labels": [
+              "POST photo"
+            ],
             "source": {
               "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
             },
             "target": {
               "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
             },
-            "labels": [
-              "POST photo"
-            ],
             "vertices": [
               {
                 "x": 1510,
@@ -2059,15 +2059,15 @@
               "threats": []
             },
             "id": "e343da64-35e4-423b-9cc9-9e99def340db",
+            "labels": [
+              "Photo {Id} uploaded/error"
+            ],
             "source": {
               "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
             },
             "target": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
-            "labels": [
-              "Photo {Id} uploaded/error"
-            ],
             "vertices": [
               {
                 "x": 1490,
@@ -2107,15 +2107,15 @@
               "threats": []
             },
             "id": "0a4c81be-f6f4-47a9-9ceb-640352016e6a",
+            "labels": [
+              "POST photo"
+            ],
             "source": {
               "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
             },
             "target": {
               "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
             },
-            "labels": [
-              "POST photo"
-            ],
             "vertices": [
               {
                 "x": 440,
@@ -2155,15 +2155,15 @@
               "threats": []
             },
             "id": "93915262-d23a-437f-b51b-7974b386d279",
+            "labels": [
+              "Photo {Id} uploaded/error"
+            ],
             "source": {
               "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
             },
             "target": {
               "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
             },
-            "labels": [
-              "Photo {Id} uploaded/error"
-            ],
             "vertices": [
               {
                 "x": 490,
@@ -2203,15 +2203,15 @@
               "threats": []
             },
             "id": "ea8405f6-0610-45a3-9f1e-8be142c82fee",
+            "labels": [
+              "Upload fileToUpload"
+            ],
             "source": {
               "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Upload fileToUpload"
-            ],
             "vertices": [
               {
                 "x": 1190,
@@ -2251,15 +2251,15 @@
               "threats": []
             },
             "id": "82c6dfe7-0ad2-4620-9bf0-9e6885ee63ae",
+            "labels": [
+              "Photo crated/Invalid file type"
+            ],
             "source": {
               "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
             },
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "labels": [
-              "Photo crated/Invalid file type"
-            ],
             "vertices": [
               {
                 "x": 1190,
@@ -2299,19 +2299,163 @@
               "threats": []
             },
             "id": "5bc0d1cd-2bbb-4d2f-94ad-11e7cbbbd4df",
+            "labels": [
+              "POST edit "
+            ],
             "source": {
               "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
             "target": {
               "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
             },
-            "labels": [
-              "POST edit "
-            ],
             "vertices": [
               {
                 "x": 1480,
                 "y": 1520
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "editById caption/description",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "eeeab668-0d96-47f1-a655-3f4ccb064861",
+            "source": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "editById caption/description"
+            ],
+            "vertices": [
+              {
+                "x": 1200,
+                "y": 1550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo edited/unauthorised",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "40e90ed5-5006-471f-99b6-9b74f9d187aa",
+            "source": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Photo edited/unauthorised"
+            ],
+            "vertices": [
+              {
+                "x": 1510,
+                "y": 1530
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo edited",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e66b518a-766a-43fa-bb2e-e7b16cd9febf",
+            "source": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "target": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "labels": [
+              "Photo edited"
+            ],
+            "vertices": [
+              {
+                "x": 1510,
+                "y": 1690
               }
             ]
           },
@@ -2562,6 +2706,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 17,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2586,7 +2731,6 @@
             "target": {
               "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
             },
-            "zIndex": 17,
             "vertices": [
               {
                 "x": 1500,
@@ -2615,6 +2759,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "id": "ef002781-8035-420b-97f6-8e00da312a6c",
             "data": {
               "type": "tm.Process",
@@ -2628,8 +2773,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 18
+            }
           },
           {
             "shape": "flow",
@@ -2647,6 +2791,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 19,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2671,7 +2816,6 @@
             "target": {
               "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
             },
-            "zIndex": 19,
             "vertices": [
               {
                 "x": 810,
@@ -2695,6 +2839,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 20,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2719,7 +2864,6 @@
             "target": {
               "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
             },
-            "zIndex": 20,
             "vertices": [
               {
                 "x": 800,
@@ -2743,6 +2887,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 21,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2767,7 +2912,6 @@
             "target": {
               "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
             },
-            "zIndex": 21,
             "vertices": [
               {
                 "x": 1480,
