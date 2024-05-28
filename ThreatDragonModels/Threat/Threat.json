@@ -44,6 +44,56 @@
           },
           {
             "position": {
+              "x": 1294.9999999999948,
+              "y": 1270.0000000000007
+            },
+            "size": {
+              "width": 570,
+              "height": 690
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Logged-in user browser acces"
+              }
+            },
+            "id": "548da9f0-2bf9-47d2-9116-6b60de256922",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Logged-in user browser acces",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 644,
+              "y": 1900.0000000000014
+            },
+            "size": {
+              "width": 410,
+              "height": 140
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Databases"
+              }
+            },
+            "id": "8a5a6441-bf87-451b-9a15-40e579c7bc11",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Databases",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 330,
               "y": 1570
             },
@@ -1554,7 +1604,7 @@
             "vertices": [
               {
                 "x": 1570,
-                "y": 1220
+                "y": 1240
               }
             ]
           },
@@ -2707,6 +2757,38 @@
               {
                 "x": 1190,
                 "y": 1740
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "File-upload Sanitisation",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "bbed064b-491f-4abc-8e4d-4afe787d86fc",
+            "source": {
+              "x": 1120,
+              "y": 1960
+            },
+            "target": {
+              "x": 1260,
+              "y": 1910
+            },
+            "labels": [
+              "File-upload Sanitisation"
+            ],
+            "vertices": [
+              {
+                "x": 1170,
+                "y": 1890
               }
             ]
           },
