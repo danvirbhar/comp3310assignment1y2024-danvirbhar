@@ -2287,54 +2287,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "POST edit ",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "5bc0d1cd-2bbb-4d2f-94ad-11e7cbbbd4df",
-            "labels": [
-              "POST edit "
-            ],
-            "source": {
-              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
-            },
-            "target": {
-              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
-            },
-            "vertices": [
-              {
-                "x": 1480,
-                "y": 1520
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "editById caption/description",
               "description": "",
               "outOfScope": false,
@@ -2406,8 +2358,8 @@
             ],
             "vertices": [
               {
-                "x": 1510,
-                "y": 1530
+                "x": 1520,
+                "y": 1520
               }
             ]
           },
@@ -2479,50 +2431,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Check user permissions",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "89f4fc05-52ad-436d-86b1-8f96e30dafef",
-            "source": {
-              "x": 210,
-              "y": 1860
-            },
-            "target": {
-              "x": 360,
-              "y": 2020
-            },
-            "labels": [
-              "Check user permissions"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Photo {name} edited",
               "description": "",
               "outOfScope": false,
@@ -2548,6 +2456,192 @@
               {
                 "x": 1200,
                 "y": 1593
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST edit {Id}",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5bc0d1cd-2bbb-4d2f-94ad-11e7cbbbd4df",
+            "labels": [
+              "POST edit {Id}"
+            ],
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "vertices": [
+              {
+                "x": 1480,
+                "y": 1520
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo deleted/unauthorised",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "a5762272-cf64-41c8-bbcb-f642c5d1c060",
+            "source": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Photo deleted/unauthorised"
+            ],
+            "vertices": [
+              {
+                "x": 1500,
+                "y": 1580
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo deleted",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "2d25fa3a-9c24-4fba-b835-9d23913231c0",
+            "source": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "target": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "labels": [
+              "Photo deleted"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check user permissions",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "89f4fc05-52ad-436d-86b1-8f96e30dafef",
+            "source": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check user permissions"
+            ],
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 1630
               }
             ]
           },
@@ -2983,7 +3077,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "POST edit",
+              "name": "POST edit {Id}",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2996,7 +3090,7 @@
             },
             "id": "1e660a82-e407-426e-b7e4-6555f453a96f",
             "labels": [
-              "POST edit"
+              "POST edit {Id}"
             ],
             "source": {
               "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
@@ -3056,6 +3150,102 @@
               {
                 "x": 1210,
                 "y": 1570
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST delete {Id}",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e8387433-ec72-4bb0-8b77-a4810a5e24d1",
+            "labels": [
+              "POST delete {Id}"
+            ],
+            "source": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "target": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "zIndex": 23,
+            "vertices": [
+              {
+                "x": 1510,
+                "y": 1700
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST delete {Id}",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "6c903c85-5d2b-4a94-90af-c67011f7f9d4",
+            "labels": [
+              "POST delete {Id}"
+            ],
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
+            },
+            "zIndex": 24,
+            "vertices": [
+              {
+                "x": 1490,
+                "y": 1560
               }
             ]
           }
