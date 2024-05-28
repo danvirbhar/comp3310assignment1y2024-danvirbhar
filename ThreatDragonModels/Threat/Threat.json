@@ -761,6 +761,150 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check  details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e4a9da50-9857-40ac-8ff3-03a4743ef05d",
+            "source": {
+              "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check  details"
+            ],
+            "vertices": [
+              {
+                "x": 830,
+                "y": 1440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success redirect to home",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "4fb31f96-c9db-4547-ada1-e50f3b96cb27",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
+            },
+            "labels": [
+              "Success redirect to home"
+            ],
+            "vertices": [
+              {
+                "x": 820,
+                "y": 1490
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid/exists redirect to signup",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "778f76f2-53cb-4171-8a99-61ed7f60d090",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "76f31664-546b-4282-a6e2-645cd7a8e8fa"
+            },
+            "labels": [
+              "Invalid/exists redirect to signup"
+            ],
+            "vertices": [
+              {
+                "x": 810,
+                "y": 1520
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1510,
               "y": 1654
