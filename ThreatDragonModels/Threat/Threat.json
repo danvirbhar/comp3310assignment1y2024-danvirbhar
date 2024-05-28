@@ -2460,6 +2460,98 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check user permissions",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "89f4fc05-52ad-436d-86b1-8f96e30dafef",
+            "source": {
+              "x": 210,
+              "y": 1860
+            },
+            "target": {
+              "x": 360,
+              "y": 2020
+            },
+            "labels": [
+              "Check user permissions"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo {name} edited",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "54a89dca-fd65-48b6-8c8b-ef83db96fbc7",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "labels": [
+              "Photo {name} edited"
+            ],
+            "vertices": [
+              {
+                "x": 1200,
+                "y": 1593
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1630,
               "y": 1690
@@ -2916,6 +3008,54 @@
               {
                 "x": 1480,
                 "y": 1650
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check user permissions",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "2fc58fc6-be64-425b-b389-108524ffc968",
+            "labels": [
+              "Check user permissions"
+            ],
+            "source": {
+              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "zIndex": 22,
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 1570
               }
             ]
           }
