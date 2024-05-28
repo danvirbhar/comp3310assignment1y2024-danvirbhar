@@ -19,6 +19,31 @@
         "cells": [
           {
             "position": {
+              "x": 321.99999999999966,
+              "y": 1390
+            },
+            "size": {
+              "width": 350,
+              "height": 390
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Public browser access"
+              }
+            },
+            "id": "67bca273-4d5b-40bb-ae76-159c1f8f8df9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Public browser access",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 330,
               "y": 1570
             },
