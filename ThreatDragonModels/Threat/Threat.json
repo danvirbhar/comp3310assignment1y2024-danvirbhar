@@ -1139,6 +1139,102 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check user role",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "fc1fe04c-6af3-4831-8ea7-99f02107b790",
+            "source": {
+              "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check user role"
+            ],
+            "vertices": [
+              {
+                "x": 950,
+                "y": 1500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return user role",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "200b4647-42e9-400b-8380-1b4945245725",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
+            },
+            "labels": [
+              "Return user role"
+            ],
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 1530
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1510,
               "y": 1654
@@ -1211,8 +1307,8 @@
           },
           {
             "position": {
-              "x": 991,
-              "y": 1390
+              "x": 940,
+              "y": 1360
             },
             "size": {
               "width": 120,
