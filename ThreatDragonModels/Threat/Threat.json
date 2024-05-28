@@ -374,16 +374,16 @@
           },
           {
             "position": {
-              "x": 1620,
-              "y": 1440
+              "x": 1650,
+              "y": 1540
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 170,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "Logged-in user"
+                "text": "Logged-in user/Admin"
               },
               "body": {
                 "stroke": "#333333",
@@ -397,7 +397,7 @@
             "id": "e726d126-a90f-4d84-ba3a-94f717338212",
             "data": {
               "type": "tm.Actor",
-              "name": "Logged-in user",
+              "name": "Logged-in user/Admin",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1686,56 +1686,8 @@
             },
             "vertices": [
               {
-                "x": 1330,
-                "y": 1390
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Issue token",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "c9788e73-8a7b-4a57-b468-31422ac8f41a",
-            "labels": [
-              "Issue token"
-            ],
-            "source": {
-              "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
-            },
-            "target": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "vertices": [
-              {
-                "x": 1300,
-                "y": 1620
+                "x": 1570,
+                "y": 1220
               }
             ]
           },
@@ -1782,7 +1734,7 @@
             },
             "vertices": [
               {
-                "x": 1530,
+                "x": 1650,
                 "y": 1343
               }
             ]
@@ -1830,7 +1782,7 @@
             },
             "vertices": [
               {
-                "x": 1500,
+                "x": 1590,
                 "y": 1380
               }
             ]
@@ -1974,56 +1926,8 @@
             },
             "vertices": [
               {
-                "x": 1470,
+                "x": 1560,
                 "y": 1440
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "POST photo",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "5a26f514-10ce-4a70-9a84-7cc177c0cb3c",
-            "labels": [
-              "POST photo"
-            ],
-            "source": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "target": {
-              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
-            },
-            "vertices": [
-              {
-                "x": 1510,
-                "y": 1600
               }
             ]
           },
@@ -2070,8 +1974,8 @@
             },
             "vertices": [
               {
-                "x": 1490,
-                "y": 1490
+                "x": 1550,
+                "y": 1463
               }
             ]
           },
@@ -2358,56 +2262,8 @@
             ],
             "vertices": [
               {
-                "x": 1520,
-                "y": 1520
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Photo edited",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "e66b518a-766a-43fa-bb2e-e7b16cd9febf",
-            "source": {
-              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
-            },
-            "target": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "labels": [
-              "Photo edited"
-            ],
-            "vertices": [
-              {
                 "x": 1510,
-                "y": 1690
+                "y": 1585
               }
             ]
           },
@@ -2502,8 +2358,8 @@
             },
             "vertices": [
               {
-                "x": 1480,
-                "y": 1520
+                "x": 1500,
+                "y": 1540
               }
             ]
           },
@@ -2550,51 +2406,9 @@
             ],
             "vertices": [
               {
-                "x": 1500,
-                "y": 1580
+                "x": 1570,
+                "y": 1680
               }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Photo deleted",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "2d25fa3a-9c24-4fba-b835-9d23913231c0",
-            "source": {
-              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
-            },
-            "target": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "labels": [
-              "Photo deleted"
             ]
           },
           {
@@ -2644,40 +2458,6 @@
                 "y": 1630
               }
             ]
-          },
-          {
-            "position": {
-              "x": 1630,
-              "y": 1690
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Admin"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 11,
-            "id": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Admin",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
           },
           {
             "position": {
@@ -2877,54 +2657,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 17,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Photo {Id} uploaded/error",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "6294a851-5a63-44b8-aa4f-b48178e33d05",
-            "labels": [
-              "Photo {Id} uploaded/error"
-            ],
-            "source": {
-              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
-            },
-            "target": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "vertices": [
-              {
-                "x": 1500,
-                "y": 1640
-              }
-            ]
-          },
-          {
             "position": {
               "x": 590,
               "y": 1310
@@ -3073,54 +2805,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 21,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "POST edit {Id}",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "1e660a82-e407-426e-b7e4-6555f453a96f",
-            "labels": [
-              "POST edit {Id}"
-            ],
-            "source": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "target": {
-              "cell": "f4dce501-1c67-43c4-ac23-c99f59df6cd1"
-            },
-            "vertices": [
-              {
-                "x": 1480,
-                "y": 1650
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3183,54 +2867,6 @@
               "protocol": "",
               "threats": []
             },
-            "id": "e8387433-ec72-4bb0-8b77-a4810a5e24d1",
-            "labels": [
-              "POST delete {Id}"
-            ],
-            "source": {
-              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
-            },
-            "target": {
-              "cell": "10e300de-ef13-441a-8575-2b102e7c1157"
-            },
-            "zIndex": 23,
-            "vertices": [
-              {
-                "x": 1510,
-                "y": 1700
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "POST delete {Id}",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "6c903c85-5d2b-4a94-90af-c67011f7f9d4",
             "labels": [
               "POST delete {Id}"
@@ -3244,8 +2880,8 @@
             "zIndex": 24,
             "vertices": [
               {
-                "x": 1490,
-                "y": 1560
+                "x": 1510,
+                "y": 1650
               }
             ]
           }
