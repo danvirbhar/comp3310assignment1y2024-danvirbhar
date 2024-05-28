@@ -1740,6 +1740,239 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "GET request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "28aeee0b-a03c-4bc1-a7c5-44b3172fe0b5",
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
+            },
+            "vertices": [
+              {
+                "x": 1530,
+                "y": 1343
+              }
+            ],
+            "labels": [
+              "GET request"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Users profile page",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "a2f44a4e-9e96-4427-87e4-16fca948984f",
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
+            },
+            "labels": [
+              "Users profile page"
+            ],
+            "vertices": [
+              {
+                "x": 1500,
+                "y": 1380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fetch users photos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "46f2aa8b-11ef-42ca-92e4-083608b18968",
+            "source": {
+              "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Fetch users photos"
+            ],
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 1420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return users photos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "da418282-63e0-40b3-894d-5fe7a15ccd40",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "80a8836e-19b1-4090-bc3e-25d05d4893d1"
+            },
+            "labels": [
+              "Return users photos"
+            ],
+            "vertices": [
+              {
+                "x": 1170,
+                "y": 1450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "12ab62fb-79e9-4f39-9827-962e079f9d73",
+            "source": {
+              "x": 267,
+              "y": 1250
+            },
+            "target": {
+              "x": 367,
+              "y": 1350
+            }
+          },
+          {
             "position": {
               "x": 1570,
               "y": 1654
