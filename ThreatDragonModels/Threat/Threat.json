@@ -1217,8 +1217,8 @@
             },
             "vertices": [
               {
-                "x": 880,
-                "y": 1740
+                "x": 860,
+                "y": 1850
               }
             ]
           },
@@ -1265,56 +1265,8 @@
             },
             "vertices": [
               {
-                "x": 1100,
-                "y": 1750
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update user info",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "626ba970-56fd-4989-8134-ead6faa9b2c4",
-            "labels": [
-              "Update user info"
-            ],
-            "source": {
-              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
-            },
-            "target": {
-              "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
-            },
-            "vertices": [
-              {
-                "x": 977,
-                "y": 1780
+                "x": 1090,
+                "y": 1860
               }
             ]
           },
@@ -1361,8 +1313,8 @@
             },
             "vertices": [
               {
-                "x": 1195,
-                "y": 1690
+                "x": 1140,
+                "y": 1730
               }
             ]
           },
@@ -1409,8 +1361,8 @@
             },
             "vertices": [
               {
-                "x": 1150,
-                "y": 1710
+                "x": 1090,
+                "y": 1730
               }
             ]
           },
@@ -1457,8 +1409,8 @@
             },
             "vertices": [
               {
-                "x": 1130,
-                "y": 1740
+                "x": 1070,
+                "y": 1760
               }
             ]
           },
@@ -1505,8 +1457,8 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 1710
+                "x": 751,
+                "y": 1770
               }
             ]
           },
@@ -1553,8 +1505,8 @@
             },
             "vertices": [
               {
-                "x": 820,
-                "y": 1730
+                "x": 800,
+                "y": 1810
               }
             ]
           },
@@ -2567,6 +2519,198 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check user permissions",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "8615ccb7-4de6-4a5e-ad73-e710e8dac10e",
+            "source": {
+              "cell": "96349eac-1e75-402a-95cc-39faa6985c70"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check user permissions"
+            ],
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 1700
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update user info",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "626ba970-56fd-4989-8134-ead6faa9b2c4",
+            "labels": [
+              "Update user info"
+            ],
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "a5436f7e-e7a1-466f-b5cb-2fea091ea2a5"
+            },
+            "vertices": [
+              {
+                "x": 987,
+                "y": 1880
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fetch photos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "8271f5f1-004d-4f90-b986-35bbcb3fb8d9",
+            "source": {
+              "cell": "96349eac-1e75-402a-95cc-39faa6985c70"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Fetch photos"
+            ],
+            "vertices": [
+              {
+                "x": 1230,
+                "y": 1740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return photos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "f1e7a305-6e84-48d6-b0d0-5331f093b092",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "96349eac-1e75-402a-95cc-39faa6985c70"
+            },
+            "labels": [
+              "Return photos"
+            ],
+            "vertices": [
+              {
+                "x": 1190,
+                "y": 1740
+              }
+            ]
+          },
+          {
             "position": {
               "x": 911,
               "y": 1545
@@ -2642,8 +2786,8 @@
           },
           {
             "position": {
-              "x": 681,
-              "y": 1860
+              "x": 691,
+              "y": 1950
             },
             "size": {
               "width": 120,
@@ -2683,8 +2827,8 @@
           },
           {
             "position": {
-              "x": 891,
-              "y": 1860
+              "x": 901,
+              "y": 1950
             },
             "size": {
               "width": 120,
@@ -2724,8 +2868,8 @@
           },
           {
             "position": {
-              "x": 1135,
-              "y": 1860
+              "x": 1145,
+              "y": 1950
             },
             "size": {
               "width": 120,
