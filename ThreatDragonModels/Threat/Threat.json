@@ -1277,7 +1277,7 @@
             ],
             "vertices": [
               {
-                "x": 860,
+                "x": 880,
                 "y": 1740
               }
             ]
@@ -1374,7 +1374,7 @@
             "vertices": [
               {
                 "x": 977,
-                "y": 1780
+                "y": 1770
               }
             ]
           },
@@ -1520,6 +1520,198 @@
             ],
             "labels": [
               "Read photo"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update photo info",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "71d9523b-e5ac-4010-b777-c3ac9e31ca4d",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "9485f6da-7f94-49cc-a086-b9463196376f"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": 1710
+              }
+            ],
+            "labels": [
+              "Update photo info"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "45336336-7b3a-4584-903f-413d733a0cd7",
+            "source": {
+              "cell": "9485f6da-7f94-49cc-a086-b9463196376f"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Read database"
+            ],
+            "vertices": [
+              {
+                "x": 820,
+                "y": 1730
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Issue token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "904d62b8-26fa-4fa9-ad7c-55ce7419f384",
+            "source": {
+              "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Issue token"
+            ],
+            "vertices": [
+              {
+                "x": 1330,
+                "y": 1390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Issue token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "c9788e73-8a7b-4a57-b468-31422ac8f41a",
+            "source": {
+              "cell": "adbaca76-abf3-49cc-ae79-b3399b70268c"
+            },
+            "target": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "labels": [
+              "Issue token"
+            ],
+            "vertices": [
+              {
+                "x": 1250,
+                "y": 1620
+              }
             ]
           },
           {
