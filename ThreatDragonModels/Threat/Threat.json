@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 321.99999999999966,
-              "y": 1390
+              "x": 322.00000000000006,
+              "y": 1290
             },
             "size": {
               "width": 350,
-              "height": 390
+              "height": 490
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -374,8 +374,8 @@
           },
           {
             "position": {
-              "x": 1570,
-              "y": 1470
+              "x": 1620,
+              "y": 1440
             },
             "size": {
               "width": 112.5,
@@ -1734,7 +1734,7 @@
             ],
             "vertices": [
               {
-                "x": 1250,
+                "x": 1300,
                 "y": 1620
               }
             ]
@@ -1951,7 +1951,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "POST photo",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1964,18 +1964,217 @@
             },
             "id": "12ab62fb-79e9-4f39-9827-962e079f9d73",
             "source": {
-              "x": 267,
-              "y": 1250
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
             },
             "target": {
-              "x": 367,
-              "y": 1350
-            }
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "labels": [
+              "POST photo"
+            ],
+            "vertices": [
+              {
+                "x": 1470,
+                "y": 1440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST photo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5a26f514-10ce-4a70-9a84-7cc177c0cb3c",
+            "source": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "target": {
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "labels": [
+              "POST photo"
+            ],
+            "vertices": [
+              {
+                "x": 1520,
+                "y": 1560
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo {Id} uploaded/error",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e343da64-35e4-423b-9cc9-9e99def340db",
+            "source": {
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Photo {Id} uploaded/error"
+            ],
+            "vertices": [
+              {
+                "x": 1490,
+                "y": 1490
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST photo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "0a4c81be-f6f4-47a9-9ceb-640352016e6a",
+            "source": {
+              "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
+            },
+            "target": {
+              "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
+            },
+            "labels": [
+              "POST photo"
+            ],
+            "vertices": [
+              {
+                "x": 440,
+                "y": 1410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo {Id} uploaded/error",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "93915262-d23a-437f-b51b-7974b386d279",
+            "source": {
+              "cell": "ef002781-8035-420b-97f6-8e00da312a6c"
+            },
+            "target": {
+              "cell": "cca057c3-cb20-4161-84d5-582eb9570896"
+            },
+            "labels": [
+              "Photo {Id} uploaded/error"
+            ],
+            "vertices": [
+              {
+                "x": 490,
+                "y": 1440
+              }
+            ]
           },
           {
             "position": {
-              "x": 1570,
-              "y": 1654
+              "x": 1630,
+              "y": 1690
             },
             "size": {
               "width": 112.5,
@@ -2202,6 +2401,91 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Photo {Id} uploaded/error",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "6294a851-5a63-44b8-aa4f-b48178e33d05",
+            "labels": [
+              "Photo {Id} uploaded/error"
+            ],
+            "source": {
+              "cell": "9c90470c-ed52-405c-8415-c34207b27b8c"
+            },
+            "target": {
+              "cell": "ecd20f92-5481-4cac-b5d4-ebbf64cb1a28"
+            },
+            "zIndex": 17,
+            "vertices": [
+              {
+                "x": 1590,
+                "y": 1560
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 590,
+              "y": 1310
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Upload"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "ef002781-8035-420b-97f6-8e00da312a6c",
+            "data": {
+              "type": "tm.Process",
+              "name": "Upload",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 18
           }
         ]
       }
