@@ -44,12 +44,12 @@
           },
           {
             "position": {
-              "x": 1294.9999999999948,
-              "y": 1270.0000000000007
+              "x": 1294.9999999999936,
+              "y": 1270.0000000000014
             },
             "size": {
               "width": 530,
-              "height": 690
+              "height": 670
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -69,7 +69,7 @@
           },
           {
             "position": {
-              "x": 664,
+              "x": 672,
               "y": 1900.0000000000014
             },
             "size": {
@@ -1171,8 +1171,8 @@
             },
             "vertices": [
               {
-                "x": 950,
-                "y": 1500
+                "x": 930,
+                "y": 1460
               }
             ]
           },
@@ -1221,6 +1221,10 @@
               {
                 "x": 1030,
                 "y": 1530
+              },
+              {
+                "x": 1060,
+                "y": 1440
               }
             ]
           },
@@ -2761,6 +2765,49 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Write metadata",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "150efae0-71dd-4051-8930-9c9a4c8befc2",
+            "source": {
+              "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
+            },
+            "target": {
+              "cell": "9ddccae4-9d4c-41ce-9666-4adbf695f6ae"
+            },
+            "labels": [
+              "Write metadata"
+            ],
+            "vertices": []
+          },
+          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -2768,26 +2815,30 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "File-upload Sanitisation",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "id": "bbed064b-491f-4abc-8e4d-4afe787d86fc",
             "source": {
-              "x": 1120,
-              "y": 1960
+              "x": 1130,
+              "y": 2040
             },
             "target": {
-              "x": 1260,
-              "y": 1910
+              "x": 1470,
+              "y": 1960
             },
             "labels": [
-              "File-upload Sanitisation"
+              ""
             ],
             "vertices": [
               {
-                "x": 1170,
+                "x": 1110,
+                "y": 1910
+              },
+              {
+                "x": 1250,
                 "y": 1890
               }
             ]
@@ -2831,8 +2882,8 @@
           },
           {
             "position": {
-              "x": 940,
-              "y": 1360
+              "x": 932,
+              "y": 1300
             },
             "size": {
               "width": 120,
@@ -3301,6 +3352,71 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1350,
+              "y": 1950
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Photo_metadata"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "9ddccae4-9d4c-41ce-9666-4adbf695f6ae",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Store",
+              "name": "Photo_metadata",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1172,
+              "y": 1840.0000000000014
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "File-upload Sanitisation"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "dafee078-951b-4d2c-a4a3-e30796d7d024",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Text",
+              "name": "File-upload Sanitisation",
+              "hasOpenThreats": false
             }
           }
         ]
