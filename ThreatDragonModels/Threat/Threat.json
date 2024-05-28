@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 390,
+              "x": 330,
               "y": 1570
             },
             "size": {
@@ -53,7 +53,7 @@
           },
           {
             "position": {
-              "x": 650,
+              "x": 590,
               "y": 1430
             },
             "size": {
@@ -90,7 +90,7 @@
           },
           {
             "position": {
-              "x": 650,
+              "x": 590,
               "y": 1570
             },
             "size": {
@@ -127,7 +127,7 @@
           },
           {
             "position": {
-              "x": 650,
+              "x": 590,
               "y": 1700
             },
             "size": {
@@ -164,7 +164,7 @@
           },
           {
             "position": {
-              "x": 1290,
+              "x": 1350,
               "y": 1430
             },
             "size": {
@@ -201,7 +201,7 @@
           },
           {
             "position": {
-              "x": 1290,
+              "x": 1350,
               "y": 1310
             },
             "size": {
@@ -238,7 +238,7 @@
           },
           {
             "position": {
-              "x": 1290,
+              "x": 1350,
               "y": 1560
             },
             "size": {
@@ -275,7 +275,7 @@
           },
           {
             "position": {
-              "x": 1290,
+              "x": 1350,
               "y": 1690
             },
             "size": {
@@ -312,7 +312,7 @@
           },
           {
             "position": {
-              "x": 1290,
+              "x": 1350,
               "y": 1823
             },
             "size": {
@@ -349,7 +349,7 @@
           },
           {
             "position": {
-              "x": 1510,
+              "x": 1570,
               "y": 1470
             },
             "size": {
@@ -424,7 +424,7 @@
             },
             "vertices": [
               {
-                "x": 570,
+                "x": 510,
                 "y": 1530
               }
             ]
@@ -472,7 +472,7 @@
             },
             "vertices": [
               {
-                "x": 590,
+                "x": 530,
                 "y": 1550
               }
             ]
@@ -520,7 +520,7 @@
             },
             "vertices": [
               {
-                "x": 570,
+                "x": 510,
                 "y": 1580
               }
             ]
@@ -568,7 +568,7 @@
             },
             "vertices": [
               {
-                "x": 530,
+                "x": 470,
                 "y": 1510
               }
             ]
@@ -616,7 +616,7 @@
             },
             "vertices": [
               {
-                "x": 570,
+                "x": 510,
                 "y": 1630
               }
             ]
@@ -654,7 +654,7 @@
             },
             "id": "3a307a02-e38a-47d7-baf0-afd257bfe538",
             "source": {
-              "x": 460,
+              "x": 400,
               "y": 1630
             },
             "target": {
@@ -665,7 +665,7 @@
             ],
             "vertices": [
               {
-                "x": 570,
+                "x": 510,
                 "y": 1670
               }
             ]
@@ -755,7 +755,7 @@
             ],
             "vertices": [
               {
-                "x": 520,
+                "x": 460,
                 "y": 1690
               }
             ]
@@ -803,7 +803,7 @@
             ],
             "vertices": [
               {
-                "x": 830,
+                "x": 770,
                 "y": 1463
               }
             ]
@@ -851,7 +851,7 @@
             ],
             "vertices": [
               {
-                "x": 810,
+                "x": 750,
                 "y": 1500
               }
             ]
@@ -899,7 +899,7 @@
             ],
             "vertices": [
               {
-                "x": 780,
+                "x": 720,
                 "y": 1530
               }
             ]
@@ -947,7 +947,7 @@
             ],
             "vertices": [
               {
-                "x": 790,
+                "x": 730,
                 "y": 1570
               }
             ]
@@ -1037,7 +1037,7 @@
             ],
             "vertices": [
               {
-                "x": 810,
+                "x": 750,
                 "y": 1640
               }
             ]
@@ -1085,7 +1085,7 @@
             ],
             "vertices": [
               {
-                "x": 800,
+                "x": 740,
                 "y": 1680
               }
             ]
@@ -1133,7 +1133,7 @@
             ],
             "vertices": [
               {
-                "x": 830,
+                "x": 770,
                 "y": 1700
               }
             ]
@@ -1277,7 +1277,7 @@
             ],
             "vertices": [
               {
-                "x": 880,
+                "x": 860,
                 "y": 1740
               }
             ]
@@ -1379,8 +1379,152 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Save photo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "9f1a56a4-4922-4ac4-82b8-3bbc4584fecf",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
+            },
+            "labels": [
+              "Save photo"
+            ],
+            "vertices": [
+              {
+                "x": 1170,
+                "y": 1710
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Delete photo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "220be8ba-ab59-4738-9b95-23bc8ca168d2",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
+            },
+            "labels": [
+              "Delete photo"
+            ],
+            "vertices": [
+              {
+                "x": 1220,
+                "y": 1670
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read photo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "10b21eac-8d59-4c7d-98ed-328e27c09271",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "992f1ed8-997f-4c3f-b25a-d8bef9a2e713"
+            },
+            "vertices": [
+              {
+                "x": 1130,
+                "y": 1740
+              }
+            ],
+            "labels": [
+              "Read photo"
+            ]
+          },
+          {
             "position": {
-              "x": 1510,
+              "x": 1570,
               "y": 1654
             },
             "size": {
@@ -1488,7 +1632,7 @@
           },
           {
             "position": {
-              "x": 721,
+              "x": 681,
               "y": 1860
             },
             "size": {
@@ -1570,7 +1714,7 @@
           },
           {
             "position": {
-              "x": 1075,
+              "x": 1135,
               "y": 1860
             },
             "size": {
