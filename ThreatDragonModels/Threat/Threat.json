@@ -44,12 +44,12 @@
           },
           {
             "position": {
-              "x": 1294.9999999999936,
+              "x": 1289.9999999999989,
               "y": 1270.0000000000014
             },
             "size": {
               "width": 530,
-              "height": 670
+              "height": 920
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -1367,8 +1367,8 @@
             },
             "vertices": [
               {
-                "x": 1140,
-                "y": 1730
+                "x": 1215,
+                "y": 1980
               }
             ]
           },
@@ -1415,8 +1415,8 @@
             },
             "vertices": [
               {
-                "x": 1090,
-                "y": 1730
+                "x": 1140,
+                "y": 2010
               }
             ]
           },
@@ -1463,56 +1463,8 @@
             },
             "vertices": [
               {
-                "x": 1070,
-                "y": 1760
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update photo info",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "71d9523b-e5ac-4010-b777-c3ac9e31ca4d",
-            "labels": [
-              "Update photo info"
-            ],
-            "source": {
-              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
-            },
-            "target": {
-              "cell": "9485f6da-7f94-49cc-a086-b9463196376f"
-            },
-            "vertices": [
-              {
-                "x": 751,
-                "y": 1770
+                "x": 1080,
+                "y": 2039.9999999999986
               }
             ]
           },
@@ -2805,7 +2757,12 @@
             "labels": [
               "Write metadata"
             ],
-            "vertices": []
+            "vertices": [
+              {
+                "x": 1310,
+                "y": 2310
+              }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -2822,26 +2779,403 @@
             },
             "id": "bbed064b-491f-4abc-8e4d-4afe787d86fc",
             "source": {
-              "x": 1130,
-              "y": 2040
+              "x": 1170,
+              "y": 2350.0000000000014
             },
             "target": {
-              "x": 1470,
-              "y": 1960
+              "x": 1510,
+              "y": 2270.0000000000014
             },
             "labels": [
               ""
             ],
             "vertices": [
               {
-                "x": 1110,
-                "y": 1910
+                "x": 1150,
+                "y": 2220.0000000000014
               },
               {
-                "x": 1250,
-                "y": 1890
+                "x": 1290,
+                "y": 2200.0000000000014
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update photo info/comments",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "71d9523b-e5ac-4010-b777-c3ac9e31ca4d",
+            "labels": [
+              "Update photo info/comments"
+            ],
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "9485f6da-7f94-49cc-a086-b9463196376f"
+            },
+            "vertices": [
+              {
+                "x": 751,
+                "y": 1770
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "POST comment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "bd9d0e54-d8b8-4f77-bd7e-b9fa1fb48926",
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "50aa8f1f-f01b-4603-bc1f-27747f592dfe"
+            },
+            "vertices": [
+              {
+                "x": 1620,
+                "y": 1870
+              }
+            ],
+            "labels": [
+              "POST comment"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Comment added",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "0514ab72-4c88-4957-9c0c-a51c0836a82a",
+            "source": {
+              "cell": "50aa8f1f-f01b-4603-bc1f-27747f592dfe"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Comment added"
+            ],
+            "vertices": [
+              {
+                "x": 1640,
+                "y": 1900
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Add comment to photo {Id}",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "c580517f-2341-4b2a-9a62-f700632db0b3",
+            "source": {
+              "cell": "50aa8f1f-f01b-4603-bc1f-27747f592dfe"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Add comment to photo {Id}"
+            ],
+            "vertices": [
+              {
+                "x": 1230,
+                "y": 1810
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Comment posted",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "cd4d5a2e-f142-4a64-a05e-56adc7f05818",
+            "source": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "target": {
+              "cell": "50aa8f1f-f01b-4603-bc1f-27747f592dfe"
+            },
+            "labels": [
+              "Comment posted"
+            ],
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 1840
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "PUT edited comment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "d8c2d736-0ecb-4a5a-816f-fd06fa5a6214",
+            "source": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "target": {
+              "cell": "8dd40804-429d-44e5-9d2c-d02fff29de21"
+            },
+            "labels": [
+              "PUT edited comment"
+            ],
+            "vertices": [
+              {
+                "x": 1670,
+                "y": 1950
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Comment edited/unauthorised",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "812c21ee-a316-4e32-ab78-93cb72796ad3",
+            "source": {
+              "cell": "8dd40804-429d-44e5-9d2c-d02fff29de21"
+            },
+            "target": {
+              "cell": "e726d126-a90f-4d84-ba3a-94f717338212"
+            },
+            "labels": [
+              "Comment edited/unauthorised"
+            ],
+            "vertices": [
+              {
+                "x": 1700,
+                "y": 1990
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "16abdd31-a9d4-4daa-b236-d2812fd036e0",
+            "source": {
+              "x": 175,
+              "y": 1960
+            },
+            "target": {
+              "x": 275,
+              "y": 2060
+            }
           },
           {
             "position": {
@@ -3001,8 +3335,8 @@
           },
           {
             "position": {
-              "x": 1145,
-              "y": 1950
+              "x": 1155,
+              "y": 2300
             },
             "size": {
               "width": 120,
@@ -3356,8 +3690,8 @@
           },
           {
             "position": {
-              "x": 1350,
-              "y": 1950
+              "x": 1360,
+              "y": 2300
             },
             "size": {
               "width": 120,
@@ -3397,8 +3731,8 @@
           },
           {
             "position": {
-              "x": 1172,
-              "y": 1840.0000000000014
+              "x": 1180,
+              "y": 2189.9999999999986
             },
             "size": {
               "width": 112.5,
@@ -3417,6 +3751,80 @@
               "type": "tm.Text",
               "name": "File-upload Sanitisation",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1345,
+              "y": 1980
+            },
+            "size": {
+              "width": 70,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Comment"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "50aa8f1f-f01b-4603-bc1f-27747f592dfe",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Process",
+              "name": "Comment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1330,
+              "y": 2079.9999999999986
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Comment/edit"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "8dd40804-429d-44e5-9d2c-d02fff29de21",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Process",
+              "name": "Comment/edit",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
