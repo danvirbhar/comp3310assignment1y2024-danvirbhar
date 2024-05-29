@@ -1367,8 +1367,8 @@
             },
             "vertices": [
               {
-                "x": 1215,
-                "y": 1980
+                "x": 1150,
+                "y": 1930
               }
             ]
           },
@@ -1415,8 +1415,8 @@
             },
             "vertices": [
               {
-                "x": 1140,
-                "y": 2010
+                "x": 1075,
+                "y": 1960
               }
             ]
           },
@@ -1463,8 +1463,8 @@
             },
             "vertices": [
               {
-                "x": 1080,
-                "y": 2039.9999999999986
+                "x": 1015,
+                "y": 1989.9999999999986
               }
             ]
           },
@@ -2759,8 +2759,8 @@
             ],
             "vertices": [
               {
-                "x": 1310,
-                "y": 2310
+                "x": 1245,
+                "y": 2260
               }
             ]
           },
@@ -2779,24 +2779,24 @@
             },
             "id": "bbed064b-491f-4abc-8e4d-4afe787d86fc",
             "source": {
-              "x": 1170,
-              "y": 2350.0000000000014
+              "x": 1105,
+              "y": 2300.0000000000014
             },
             "target": {
-              "x": 1510,
-              "y": 2270.0000000000014
+              "x": 1445,
+              "y": 2220.0000000000014
             },
             "labels": [
               ""
             ],
             "vertices": [
               {
-                "x": 1150,
-                "y": 2220.0000000000014
+                "x": 1085,
+                "y": 2170.0000000000014
               },
               {
-                "x": 1290,
-                "y": 2200.0000000000014
+                "x": 1225,
+                "y": 2150.0000000000014
               }
             ]
           },
@@ -3156,7 +3156,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Check user permissions",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3169,13 +3169,116 @@
             },
             "id": "16abdd31-a9d4-4daa-b236-d2812fd036e0",
             "source": {
-              "x": 175,
-              "y": 1960
+              "cell": "8dd40804-429d-44e5-9d2c-d02fff29de21"
             },
             "target": {
-              "x": 275,
-              "y": 2060
-            }
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Check user permissions"
+            ],
+            "vertices": [
+              {
+                "x": 1200,
+                "y": 1860
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "editById comment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "177f07ab-b21c-4cac-a931-e6e79279147b",
+            "source": {
+              "cell": "8dd40804-429d-44e5-9d2c-d02fff29de21"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "editById comment"
+            ],
+            "vertices": [
+              {
+                "x": 1200,
+                "y": 1920
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Comment {Id} edited",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "b6d8671c-d4c7-4451-9ace-9befdf3c1bb6",
+            "source": {
+              "cell": "8dd40804-429d-44e5-9d2c-d02fff29de21"
+            },
+            "target": {
+              "cell": "fcba76ef-7b94-4c2f-988a-747459414633"
+            },
+            "labels": [
+              "Comment {Id} edited"
+            ],
+            "vertices": [
+              {
+                "x": 1170,
+                "y": 1950
+              }
+            ]
           },
           {
             "position": {
@@ -3335,8 +3438,8 @@
           },
           {
             "position": {
-              "x": 1155,
-              "y": 2300
+              "x": 1090,
+              "y": 2250
             },
             "size": {
               "width": 120,
@@ -3690,8 +3793,8 @@
           },
           {
             "position": {
-              "x": 1360,
-              "y": 2300
+              "x": 1295,
+              "y": 2250
             },
             "size": {
               "width": 120,
@@ -3731,8 +3834,8 @@
           },
           {
             "position": {
-              "x": 1180,
-              "y": 2189.9999999999986
+              "x": 1115,
+              "y": 2139.9999999999986
             },
             "size": {
               "width": 112.5,
